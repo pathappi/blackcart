@@ -11,9 +11,13 @@
 5- run server by running: `python manage.py runserver`
 
 6- Create Stores using the stores table created in SQLITE DATABASE using django admin ``http://127.0.0.1:8000/admin``
+
   6.a - Django admin credentials: username: admin | password: 12345
   
 7- Run the following endpoint in the browser url to import product from the store ``<localhost_url>/store/<store id>/products/``
+
   7.a- <localhost> will be the url given to your when you ran the server in step 5
+  
   7.b- <store id> will be the store id you created in the database in step 6
+  
   7.c- url example ``http://127.0.0.1:8000/store/1561651/products/``
